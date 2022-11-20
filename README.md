@@ -1,15 +1,15 @@
-# Neural Networks
+# Neural Networks [ᐅ<sub>code</sub>][Code]
 
 This is a set of code used to demonstrate basic neural network concepts.
 
 ## Notebooks
 
-The notebooks contain code to demonstrate the concepts and how they are 
+The notebooks contain code to demonstrate the concepts and how they are
 applied in code and data.
 
-### 01_Gradient_Descent.ipynb
+### Gradient Descent
 
-This shows the concept of optimization with gradient descent. 
+This shows the concept of optimization with gradient descent.
 
 **Main Concepts:**
 
@@ -17,7 +17,7 @@ This shows the concept of optimization with gradient descent.
 *   Computation of the gradient steps
 *   Optimizing the parameters using the gradients
 
-### 02_Keras.ipynb
+### Keras
 
 This shows the usage of Keras and the usage of activation functions with
 stack of linear functions.
@@ -28,7 +28,7 @@ stack of linear functions.
 *   How activation functions allow learning non-linearity
 *   Dense network introduction
 
-### 03_Dense_Networks.ipynb
+### Dense Network
 
 This shows some preprocessing steps on real world data and practical things
 to set up before training a network.
@@ -42,18 +42,16 @@ to set up before training a network.
 *   Training checkpoints
 *   Early stopping
 
-### 04_Convolutional_Network.ipynb
+### Convolutional Network
 
-This shows how to train a convolutional network. Loading images from numeric
-data format, displaying images on the notebook, and model training are the
-concepts shown in this notebook.
+This shows how to train a convolutional network.
 
 **Main Concepts:**
 
 *   Image from numeric formats
 *   Convolutional networks
 
-### 05_Transfer_Learning.ipynb
+### Transfer Learning
 
 This shows how to leverage pretrained models on use cases with low amount of
 data.
@@ -65,9 +63,9 @@ data.
 *   Adding layers on pretrained models
 *   Setting trainable layers on pretrained models
 
-### 06_Recurrent_Network.ipynb
+### Recurrent Network
 
-This notebook shows how to generate models that consumes sequences of data 
+This notebook shows how to generate models that consumes sequences of data
 with recurrent networks.
 
 **Main Concepts:**
@@ -81,3 +79,6 @@ with recurrent networks.
 The `data` folder contains the example datasets used to run the code in the
 `notebook` directory. Most of them are smaller versions of the datasets for
 the sake of reasonable run times.
+
+
+[Code]: https://github.com/baluyotraf/lecture-neural-networks (Code)
