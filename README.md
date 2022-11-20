@@ -1,4 +1,4 @@
-# Neural Networks [ᐅ<sub>code</sub>][Code]
+# Neural Networks | [ᐅ<sub>code</sub>][Code]
 
 This is a set of code used to demonstrate basic neural network concepts.
 
