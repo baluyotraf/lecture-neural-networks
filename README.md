@@ -86,4 +86,4 @@ the sake of reasonable run times.
 
 
 [Code]: https://github.com/baluyotraf/lecture-neural-networks (Code)
-[Software + ML]: https://education.softwareplus.ml/projects/neural-networks/
+[Software + ML]: https://education.softwareplus.ml/projects/neural-networks/ (Website)
