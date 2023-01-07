@@ -1,4 +1,8 @@
-# Neural Networks | [ᐅ<sub>code</sub>][Code]
+# Neural Networks
+
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/adb2273bdbff7abeff8f16dbde9e88722827f356/svgs/brands/firefox.svg" height="30">][Software + ML]
+[<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/adb2273bdbff7abeff8f16dbde9e88722827f356/svgs/brands/github.svg" height="30">][Code]
+
 
 This is a set of code used to demonstrate basic neural network concepts.
 
@@ -82,3 +86,4 @@ the sake of reasonable run times.
 
 
 [Code]: https://github.com/baluyotraf/lecture-neural-networks (Code)
+[Software + ML]: https://education.softwareplus.ml/projects/neural-networks/
