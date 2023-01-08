@@ -1,0 +1,23 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          TARGET_REPO="https://actions:${{ secrets.SOFTWAREPLUSML_EDUCATION_RW }}@github.com/baluyotraf/softwareplusml-education.git"
+          git clone --recurse-submodules --shallow-submodules $TARGET_REPO ../target
+          cd ../target
+          git submodule update --remote projects/lecture-neural-networks
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+          git add -A
+          git commit -m "Update from ${{ github.repository }} by Github Actions" || true
+          git push -f origin main:lecture-neural-networks
